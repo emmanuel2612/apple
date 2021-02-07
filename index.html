@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script/script.js"></script>
+    <script src="script/general.js"></script>
+
+
+    <script src="https://cdn.babylonjs.com/babylon.js"></script>
+    <script src="https://cdn.babylonjs.com/loaders/babylonjs.loaders.min.js"></script>
+    <script src="https://code.jquery.com/pep/0.4.3/pep.js"></script>
+    <script src="https://cdn.babylonjs.com/viewer/babylon.viewer.js"></script>
+    <script src="babylon.js"></script>
+    <script src="babylon.glTFFileLoader.js"></script>
+</head>
+
+<body>
+
+    <div id="blur"></div>
+
+    <section class="landing">
+
+        <div class="global-wrap">
+
+        <div id="text-container">
+            <h2>iPhone 12 Pro</h2>
+            <h1>Smile. You're on 12MP.</h1>
+            <a href="#section-2" class="blueButton" id="customiseiPhone">Customise iPhone</a>
+        </div>
+
+
+
+        <figure id="mediaContainer">
+            <video src="/images/iphone2.mp4" id="landingVideo" autoplay muted></video>
+            <img src="images/iphonestatic.jpg" id="landingImage">
+            <img src="images/iphonestaticmobile.jpg" id="landingImageMobile">
+        </figure>
+
+        <!--<img id="landingImage" src="/images/iphonegif.gif">-->
+
+    </div>
+
+    </section>
+
+    <section id="section-2">
+
+        <!--<aside class="menu-1">
+            <h1>LOGO</h1>
+        </aside>-->
+
+        <!-- <aside class="menu-2">
+        <div class="circle" id="redCircle"></div>
+        <div class="circle" id="blueCircle"></div>
+        <div class="circle" id="yellowCircle"></div>
+    </aside> -->
+
+            <div id="section-2-home">
+                <h1 id="section-2-h1">Choose iPhone Model</h1>
+                <a href="#section-3" class="blueButton" id="iphone12">iPhone 12</a>
+            </div>
+
+            
+
+    </section>
+
+    <section id="section-3">
+        <canvas id="renderCanvas" touch-action="none"></canvas>
+    </section>
+
+</body>
+
+</html>
